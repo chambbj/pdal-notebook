@@ -1,4 +1,4 @@
-FROM pdal/pdal:1.5-alpine
+FROM pdal/pdal:master-alpine
 
 RUN apk add --no-cache \
         py-pip \
@@ -14,7 +14,6 @@ RUN apk add --no-cache \
     ; \
     pip install \
         jupyter \
-        pdal \
         matplotlib \
         pandas \
         seaborn \
