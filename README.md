@@ -18,6 +18,8 @@ all of the necessary dependencies in an isolated environment (this is in fact
 the same environment that is created on Binder). The commands below will create
 and activate the environment.
 
+<!-- insert links to Conda install information -->
+
 ```bash
 conda env create -f environment.yml
 conda activate pdal-notebook
@@ -27,6 +29,6 @@ Once the environment is activated, Jupyter can be started with the following
 command.
 
 ```bash
-jupyter notebook
+jupyter notebook index.ipynb
 ```
 
