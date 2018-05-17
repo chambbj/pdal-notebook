@@ -1,0 +1,11 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python-pdal
+  - matplotlib
+  - scipy
+  - pandas
+  - seaborn
+  - shapely
+  - jupyter
