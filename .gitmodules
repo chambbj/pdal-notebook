@@ -1,3 +1,0 @@
-[submodule "notebooks/data"]
-	path = notebooks/data
-	url = https://github.com/pdal/data
