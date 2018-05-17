@@ -1,3 +1,4 @@
+name: pdal-notebook
 channels:
   - conda-forge
   - defaults
