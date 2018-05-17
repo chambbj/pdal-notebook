@@ -2,6 +2,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - pdal=1.7.2
   - python-pdal
   - matplotlib
   - scipy
@@ -9,3 +10,4 @@ dependencies:
   - seaborn
   - shapely
   - jupyter
+  - python=3.6.*
