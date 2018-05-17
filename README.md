@@ -1,12 +1,32 @@
 # pdal-notebook
 
-We have created a Docker image preloaded with PDAL, Jupyter, and a number of commonly used Python packages.
+This repository is meant to serve as a resource for those learning point cloud
+processing with the Point Data Abstraction Library (PDAL).
 
-Start by pulling the image. Next, run it, forwarding port 8888, and mounting the notebooks directory.
+The simplest way to get started for many users is to use Binder. Binder is a
+way to run Jupyter notebooks in the cloud. Just click the badge below to get
+started!
 
+<!-- insert badge here -->
+
+## Installation
+
+To run these notebooks locally, you will need to have a working installation of
+both PDAL and Jupyter, along with some additional dependencies. For your
+convenience, we have provided a Conda environment.yml file that will install
+all of the necessary dependencies in an isolated environment (this is in fact
+the same environment that is created on Binder). The commands below will create
+and activate the environment.
+
+```bash
+conda env create -f environment.yml
+conda activate pdal-notebook
 ```
-docker pull chambbj/pdal-notebook
-docker run -it --init --rm -p 8888:8888 -v $(pwd)/notebooks:/notebooks chambbj/pdal-notebook
+
+Once the environment is activated, Jupyter can be started with the following
+command.
+
+```bash
+jupyter notebook
 ```
 
-Open Jupyter in your browswer at http://localhost:8888 with the provided token.
