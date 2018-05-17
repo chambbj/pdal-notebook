@@ -7,7 +7,8 @@ The simplest way to get started for many users is to use Binder. Binder is a
 way to run Jupyter notebooks in the cloud. Just click the badge below to get
 started!
 
-<!-- insert badge here -->
+<!-- update badge away from branch at appropriate time -->
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/chambbj/pdal-notebook/convert-to-binder?filepath=index.ipynb)
 
 ## Installation
 
